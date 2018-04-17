@@ -1,0 +1,17 @@
+{
+	"compatibleVersion": 3,
+	"bundleVersion": 1,
+	"commands": [
+		{
+			"name": "react-sketchapp with electron",
+			"identifier": "main",
+			"script": "./script2.js"
+		}
+	],
+	"menu": {
+		"isRoot": true,
+		"items": [
+			"main"
+		]
+	}
+}

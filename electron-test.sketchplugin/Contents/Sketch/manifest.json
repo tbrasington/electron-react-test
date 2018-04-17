@@ -1,0 +1,22 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "react-sketchapp with electron",
+      "identifier": "main",
+      "script": "script.js"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "main"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "A minimal Electron application to test react-sketchapp",
+  "name": "electron-test",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
